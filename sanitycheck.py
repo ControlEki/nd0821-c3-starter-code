@@ -1,10 +1,10 @@
-from os import path
+"""Sanity check."""
 
 import argparse
 import importlib
 import inspect
-import os
 import sys
+from os import path
 
 FAIL_COLOR = '\033[91m'
 OK_COLOR = '\033[92m'

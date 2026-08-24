@@ -186,3 +186,8 @@ screenshots/*.jpeg
 *.pem
 secrets.json
 config.ini
+
+
+pyproject.toml
+uv.lock
+a.sh
