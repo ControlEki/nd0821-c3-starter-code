@@ -11,7 +11,8 @@ import requests
 from model import DATA_PATH
 
 # API URL
-api_url = "http://127.0.0.1:8000/predict"
+# api_url = "http://127.0.0.1:8000/predict"
+api_url = "https://nd0821-c3-starter-code-0oqk.onrender.com/predict"
 
 # Get sample input data
 df = pd.read_csv(str(DATA_PATH).replace("census.csv", "test_census.csv"))
