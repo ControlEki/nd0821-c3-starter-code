@@ -11,7 +11,6 @@ import requests
 from model import DATA_PATH
 
 # API URL
-# uv run uvicorn main:app --app-dir api --host 127.0.0.1 --port 8000
 api_url = "http://127.0.0.1:8000/predict"
 
 # Get sample input data

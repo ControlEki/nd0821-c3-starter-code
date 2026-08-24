@@ -3,20 +3,14 @@ name = "nd0821-c3-starter-code"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi==0.117.1",
-    "httpx==0.28.1",
-    "numpy==2.3.3",
-    "pandas==2.3.2",
-    "pydantic==2.11.9",
-    "pytest==8.4.2",
-    "pytest-asyncio==1.2.0",
-    "requests==2.32.5",
-    "scikit-learn==1.7.2",
-    "uvicorn[standard]==0.36.0",
-]
-
-[dependency-groups]
-dev = [
-    "ruff>=0.16.4",
-    "ty>=0.0.74",
+    "fastapi>=0.141.1",
+    "httpx2>=2.12.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pydantic>=2.13.4",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "uvicorn[standard]>=0.52.4",
 ]

@@ -2,23 +2,23 @@
 # Generated from pip freeze - September 2025
 
 # Web framework and server
-fastapi==0.117.1
-uvicorn[standard]==0.36.0
+fastapi
+uvicorn[standard]
 
 # Data validation
-pydantic==2.11.9
+pydantic
 
 # Testing
-pytest==8.4.2
-pytest-asyncio==1.2.0
+pytest
+pytest-asyncio
 
 # HTTP clients
-httpx==0.28.1
-requests==2.32.5
+httpx2
+requests
 
 # Data science libraries
-pandas==2.3.2
-numpy==2.3.3
-scikit-learn==1.7.2
+pandas
+numpy
+scikit-learn
 
 
