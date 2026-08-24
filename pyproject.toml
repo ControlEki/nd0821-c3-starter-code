@@ -1,0 +1,21 @@
+[project]
+name = "nd0821-c3-starter-code"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.117.1",
+    "numpy==2.3.3",
+    "pandas==2.3.2",
+    "pydantic==2.11.9",
+    "pytest==8.4.2",
+    "pytest-asyncio==1.2.0",
+    "requests==2.32.5",
+    "scikit-learn==1.7.2",
+    "uvicorn[standard]==0.36.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.4",
+    "ty>=0.0.74",
+]
